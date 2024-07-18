@@ -11,7 +11,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "NODE_ENV=development NODE_OPTIONS=--openssl-legacy-provider netlify-lambda serve src",
-    "build": "NODE_ENV=production netlify-lambda build src"
+    "build": "NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider netlify-lambda build src"
   },
   "repository": {
     "type": "git",
