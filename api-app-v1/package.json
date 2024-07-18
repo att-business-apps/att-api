@@ -4,7 +4,8 @@
   "description": "Node.js Demo for JWT Authentication",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify deploy --prod"
   },
   "keywords": [
     "node.js",
@@ -22,6 +23,8 @@
     "jsonwebtoken": "^9.0.0",
     "mysql2": "^2.3.3",
     "pg": "^8.12.0",
-    "sequelize": "^6.32.1"
+    "sequelize": "^6.32.1",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   }
 }
